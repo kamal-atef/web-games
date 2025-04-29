@@ -91,8 +91,8 @@ main{
 }
 .games{
   display: flex;
-  padding: 40px;
-  justify-content:space-between;
+  padding: 20px;
+  /* justify-content:space-between; */
   width: 100%;
   gap: 10px;
   flex-wrap: wrap;
@@ -102,11 +102,12 @@ main a{
   text-align: center;
   text-decoration: none;
   color: #fff;
-  width: 200px;
+  width: 300px;
   font-family: 'Courier New', Courier, monospace;
+  margin: 20px;
 }
 .game{
-  height: 300px;
+  height: 520px;
   padding-bottom: 50px;
 }
 .game img{
@@ -141,8 +142,8 @@ footer{
   margin-top: 50px;
   color: rgb(183, 112, 250);
   box-shadow: 2px 2px 8px black;
-  bottom: 0;
-  position: fixed;
+  /* bottom: 0; */
+  /* position:absolute; */
 }
 @media(max-width:1200px){
   main{
